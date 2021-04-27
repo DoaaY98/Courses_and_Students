@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Create Course</h2>
+
+<form action="http://localhost:3000/web/courses/create" id="course_f" method="POST">
+
+  <label for="name">Name:</label><br>
+  <input type="string" id="name" name="name" required><br>
+  
+  <label for="code">Code:</label><br>
+  <input type="string" id="code" name="code" required><br>
+  
+  <label for="description">Description</label><br>
+  <input type="string"  id="description" name="description"><br><br>
+  
+  <input type="submit" value="Submit">
+ 
+</form> 
+
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/api/courses".</p>
+
+</body>
+</html>
